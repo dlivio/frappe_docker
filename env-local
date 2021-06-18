@@ -1,10 +1,10 @@
 LETSENCRYPT_EMAIL=email@example.com
-ERPNEXT_VERSION=edge
-FRAPPE_VERSION=edge
+ERPNEXT_VERSION=v12.22.0
+FRAPPE_VERSION=v12.19.0
 MARIADB_HOST=mariadb
 MYSQL_ROOT_PASSWORD=admin
-SITE_NAME=mysite.localhost
-SITES=`mysite.localhost`
+SITE_NAME=erpnext-nginx
+SITES=`erpnext-nginx`
 DB_ROOT_USER=root
 ADMIN_PASSWORD=admin
 INSTALL_APPS=erpnext
