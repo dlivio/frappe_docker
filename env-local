@@ -7,7 +7,7 @@ SITE_NAME=erpnext-nginx
 SITES=`erpnext-nginx`
 DB_ROOT_USER=root
 ADMIN_PASSWORD=admin
-INSTALL_APPS=erpnext, erpnext_youtube_ipcam
+INSTALL_APPS=erpnext,erpnext_youtube_ipcam
 ENTRYPOINT_LABEL=traefik.http.routers.erpnext-nginx.entrypoints=web
 CERT_RESOLVER_LABEL=erpnext.local.no-cert-resolver
 HTTPS_REDIRECT_RULE_LABEL=erpnext.local.no-redirect-rule
